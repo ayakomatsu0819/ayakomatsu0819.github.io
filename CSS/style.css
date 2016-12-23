@@ -1,0 +1,74 @@
+body{
+	margin:0;
+	height: 600px;
+}
+
+
+.rogo{
+	border-top:50px solid #228b22;
+	height: 100px;
+	width: auto;
+	text-align: center;
+	padding-top:100px;
+}
+
+.rogo_komatsuaya{
+	height: 70px;
+}
+
+
+.rogomark{
+	height: 70px;
+	text-align: center;
+
+}
+
+.rogomark_matsu{
+	height: 70px;
+}
+
+
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+li {
+	width: 100px;
+	height: 30px;
+	margin: 10px;
+	font-size: 15px;
+	font-weight: 900;
+}
+
+
+
+
+.list-nav {
+	text-align: center;
+}
+.list-nav li {
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.greeting{
+	text-align: center;
+	line-height:200px;
+	clear:left;
+	background-image: url(../background_pattern.jpg);
+	background-size:cover;
+	height: 300px;
+
+}

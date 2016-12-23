@@ -1,0 +1,182 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body{
+	margin:0;
+	height: 100%;
+}
+
+
+header{
+	height:80px;
+	border-bottom: 4px solid #228b22;
+}
+
+.header-img-works{
+	height:50px;
+	padding-left:60px;
+	padding-top:20px;
+	float: left;
+
+}
+
+.header-right img{
+	width:50px;
+	float: right;
+	padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+	padding-left:60px;
+	width: 100%;
+	height: auto;
+
+}
+
+.crowdsourcing{
+	padding-top:20px;
+}
+
+.comment{
+	width:200px;
+	float:left;
+	color:#505050;
+	padding-right:40px;
+
+}
+
+.h1comment {
+	font-size: 15px;
+	line-height:20px
+}
+
+.pcomment{
+	font-size: 12px;
+}
+
+.photo{
+	float:left;
+	padding:10px 10px 20px 0px;
+
+}
+
+.crowdsourcing_photo_omote{
+	border:1px solid #505050;
+	width: 350px;
+	display:inline-block;
+	float:left;
+	margin-right:10px;
+}
+
+.crowdsourcing_photo_ura{
+	border:1px solid #505050;
+	width: 350px;
+	display:inline-block;
+	float:left;
+}
+
+
+.kamizomeya{
+	margin-top:40px;
+	padding-top:40px;
+	border-top:2px dotted #228b22;
+}
+
+.kamizomeya_photo{
+	width: 400px;
+}
+
+
+.CONNECT{
+	margin-top:40px;
+	padding-top:40px;
+	border-top:2px dotted #228b22;
+}
+
+
+.CONNECT_photo_omote{
+	border:1px solid #505050;
+	width: 600px;
+	display:block;
+	margin:0px 20px 20px 0px;
+}
+
+.CONNECT_photo_ura{
+	border:1px solid #505050;
+	width: 600px;
+	display:block;
+}
+
+
+.job178{
+	margin-top:40px;
+	padding-top:40px;
+	border-top:2px dotted #228b22;
+}
+
+.job178_photo{
+	width: 300px
+}
+
+
+.hako{
+	height: 80px;
+	background-color: red;
+}
+
+
+
+
+footer{
+	clear:left;
+	height:80px;
+	margin-top:50px;
+	background-image: url(../background_pattern.jpg);
+	background-size:cover;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+
+}
+
+
+.footer-left{
+	float:left;
+
+}
+
+.footer-matsuicon{
+	height:50px;
+	padding-top:15px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+
+.footer-right li{
+	float:left;
+	width:100px;
+	list-style:none;
+	text-align: center;
+	padding-top: 15px;
+	display:block;
+	font-size:13px;
+	font-weight:900;
+}

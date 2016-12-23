@@ -1,0 +1,122 @@
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+body{
+	margin:0;
+	height: 100%;
+}
+
+.container{
+	width:100%;
+	position: relative;
+	min-height: 100%;
+	height:100%;
+}
+
+
+header{
+	height:80px;
+	border-bottom: 4px solid #228b22;
+}
+
+.header-img-about{
+	height:50px;
+	padding-left:60px;
+	padding-top:20px;
+	float: left;
+
+}
+
+.header-right img{
+	width:50px;
+	float: right;
+	padding:20px;
+}
+
+.contents{
+	padding-bottom:200px;
+}
+
+.contents-left{
+	width:200px;
+	float: left;
+	padding-left:50px;
+
+}
+
+.about-ph{
+	width:200px;
+	padding-top:35px;
+}
+
+.contents-right{
+	float: left;
+	padding-top:40px;
+	padding-left:50px;
+
+}
+
+.contents-right h1 {
+	color:#505050;
+	font-size:22px;
+	line-height:10px;
+}
+
+.contents-right h2{
+	color:#505050;
+	font-size:12px;
+	letter-spacing:5px;
+	padding-bottom:20px;
+}
+
+.contents-right p{
+	color:#505050;
+	font-size:13px;
+	line-height:13px;
+
+}
+.contents-right h3{
+	color:#505050;
+	font-size:15px;
+}
+
+footer{
+	clear:left;
+	height:80px;
+	margin-top:50px;
+	background-image: url(../background_pattern.jpg);
+	background-size:cover;
+	position: fixed;
+	bottom: 0;
+	width:100%;
+
+}
+
+
+.footer-left{
+	float:left;
+
+}
+
+.footer-matsuicon{
+	height:50px;
+	padding-top:15px;
+	padding-left:20px;
+	padding-right: 20px;
+}
+
+
+
+.footer-right li{
+	float:left;
+	width:100px;
+	list-style:none;
+	text-align: center;
+	padding-top: 15px;
+	display:block;
+	font-size:13px;
+	font-weight:900;
+}

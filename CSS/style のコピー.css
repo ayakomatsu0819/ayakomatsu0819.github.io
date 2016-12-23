@@ -1,0 +1,19 @@
+body{
+	margin:0;
+	height: 100%;
+
+.rogo{
+	border-top:50px solid #228b22;
+	height: 60px;
+	background-color: red;
+	text-align: center;
+}
+
+.komatsuaya{
+	width: 200px;
+}
+
+.top-mark-matsu2{
+	display: inline-block;
+	width: 50px;
+}
